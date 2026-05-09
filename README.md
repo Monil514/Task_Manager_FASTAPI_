@@ -107,10 +107,8 @@ Before running the application, make sure you have the following prerequisites i
 To run the FastAPI application locally, use the following command:
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+ uvicorn main:app --reload  
 ```
-
-Replace `0.0.0.0` and `8000` with your desired host and port.
 
 Or you can just run `main.py`:
 ```bash
@@ -262,6 +260,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Make your changes and test thoroughly.
 4. Create a pull request with a clear description of your changes.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
